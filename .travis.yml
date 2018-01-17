@@ -1,0 +1,4 @@
+if: branch IN (develop, staging, master) OR type = pull_request
+language: go
+script:
+- echo No tests so far...
